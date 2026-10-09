@@ -3,7 +3,7 @@
 // ============================================================
 
 const SITE = {
-  name: "한 규동",
+  name: "여행 노트",
   heroTitle: "가볼 곳과 일정을 한곳에서",
   heroText: "미리 정리해 둔 여행지와 일정을 휴대폰으로 바로 확인하세요.",
   fallbackImage: "images/placeholder.svg" // 이미지가 없거나 깨질 때 대신 보여줄 이미지
@@ -11,7 +11,7 @@ const SITE = {
 
 // 메인 페이지에 표시되는 전체 일정 (destination에 여행지 id를 쓰면 링크가 걸립니다)
 const SCHEDULE = [
-  { date: "1일차", title: "나리타 공항 도착, ", destination: "jeju" },
+  { date: "1일차", title: "제주 도착, 서쪽 해안 드라이브 ", destination: "jeju" },
   { date: "2일차", title: "한라산 둘레길과 동쪽 일출", destination: "jeju" },
   { date: "3일차", title: "부산 이동, 해변 열차 탑승", destination: "busan" }
 ];
